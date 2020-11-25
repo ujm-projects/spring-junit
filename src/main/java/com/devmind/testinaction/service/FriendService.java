@@ -10,5 +10,6 @@ public interface FriendService {
     /**
      * Compute friend age from his birth year
      */
+    double computeFriendAgeAverage();
     int computeFriendAge(Friend friend);
 }
